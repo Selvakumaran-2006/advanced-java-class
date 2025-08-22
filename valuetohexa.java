@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class valuetohexa {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        int input= scanner.nextInt();
+        System.out.println(Integer.toHexString(input));
+        scanner.close();
+
+    }
+    
+}
